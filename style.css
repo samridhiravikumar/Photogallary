@@ -1,0 +1,83 @@
+body{
+text-align: center;
+}
+#img1{
+width : 1899px;    
+}
+#img2{
+width : 200px;
+height : 200px;
+}
+#img3{
+width : 200px;
+height : 200px;
+}
+#img4{
+width : 200px;
+height : 200px;
+}
+#img5{
+width : 200px;
+height : 200px;
+}
+#img6{
+width : 200px;
+height : 200px;
+}
+#img7{
+width : 200px;
+height : 200px;
+}
+#img8{
+width : 200px;
+height : 200px;
+}
+
+#img9{
+width : 200px;
+height : 200px;
+}
+
+.sliding container{
+    max-width: 200px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: inline-grid;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: static;
+    top: 150%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1}
+}
+
+@keyframes fade{
+ from {opacity: .4;}
+    to {opacity: 1}   
+}
